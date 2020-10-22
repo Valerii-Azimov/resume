@@ -1,0 +1,144 @@
+body {
+  font-family: Montserrat;
+  margin: auto;
+}
+.wraper {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  background-color: #1e2939;
+  max-width: 370px;
+  padding-bottom: 107px;
+}
+
+.main-foto {
+  padding-top: 40px;
+}
+
+.sidebar__wrp {
+  margin-left: 40px;
+}
+
+.sidebar--title {
+  color: #ffffff;
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.sidebar__list--item {
+  color: #b2b4b8;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sidebar__list--item::before {
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #ff6b08;
+  content: "";
+  margin-left: -13px;
+  margin-top: 7px;
+}
+
+.sidebar__list {
+  margin-top: 20px;
+}
+
+.main-information {
+  margin-top: 108px;
+  margin-left: 90px;
+}
+
+.main-information__title--profesion {
+  height: 14px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-information__title--name {
+  margin-top: 24px;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.main-information--description {
+  margin-top: 24px;
+  max-width: 413px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-information__projects--title,
+.main-information__work-experience--title,
+.main-information__title--education {
+  margin-top: 64px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.main-information__projects--list {
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.main-information__projects-list--item {
+  font-size: 14px;
+  font-weight: 700;
+  /* font-weight: bold; */
+}
+.main-information__projects-list--url {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #595959;
+  font-weight: 400;
+}
+
+.main-information__job--title {
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main-information__job--company {
+  color: #ff781e;
+}
+
+.main-information__job {
+  margin-top: 14px;
+}
+
+.main-information__job--period {
+  margin-top: 14px;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main-information__job-list {
+  margin-top: 17px;
+}
+.main-information__job-list--item {
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+.main-information__place-of-study--title {
+  margin-top: 21px;
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main-information__place-of-study--speciality {
+  margin-top: 15px;
+}
